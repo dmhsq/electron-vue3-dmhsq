@@ -1,5 +1,5 @@
-# electron-vue-dmhsq
-
+# electron-vue3-dmhsq
+基于vue3.x
 博客地址
 [https://blog.csdn.net/qq_42027681/article/details/112077082](https://blog.csdn.net/qq_42027681/article/details/112077082)
 
