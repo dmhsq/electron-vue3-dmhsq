@@ -1,4 +1,1 @@
-const {ipcRenderer} = require('electron')
-window.addEventListener("contextmenu",()=>{
-    ipcRenderer.send('ss');
-})
+// 渲染程序
