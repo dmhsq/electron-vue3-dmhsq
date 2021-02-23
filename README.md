@@ -213,14 +213,14 @@ const filter = {
 
         }
 ```
+
 # 3.实现登陆以及切换用户
 
 两种方案
 
 ## 方案一  主进程使用菜单切换
-
-渲染进程触发
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210118222724223.gif)主进程监听菜单事件
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2021011822282813.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMDI3Njgx,size_16,color_FFFFFF,t_70)
 主进程处理代码
 ```javascript
 function changeUser() {
@@ -256,9 +256,13 @@ function createWindows() {
 }
 
 ```
-
 ## 方案二 Vue开发的页面触发切换
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210118224206647.gif)
+
+
+
+这是切换按钮所在的菜单的代码(头部导航的部分代码)
 页面点击切换用户触发自定义事件
 ```html
 <el-dropdown>
