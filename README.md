@@ -2,6 +2,20 @@
 
 基于vue3.x
 
+- [electron-vue-dmhsq](#electron-vue-dmhsq)
+- [目录说明](#----)
+  * [安装依赖](#----)
+    + [热开发页面](#-----)
+    + [只打包vue 不打包electron](#---vue----electron)
+    + [热开发页面](#------1)
+    + [热开发electron](#---electron)
+    + [打包electron应用](#--electron--)
+- [1.解决fs.existsSync is not a function](#1--fsexistssync-is-not-a-function)
+- [2.解决electron发送请求时http://变file:// (也能解决代理)](#2--electron-----http----file------------)
+- [3.实现登陆以及切换用户](#3----------)
+  * [方案一  主进程使用菜单切换](#--------------)
+  * [方案二 Vue开发的页面触发切换](#----vue---------)
+
 # 目录说明
 ```
 electron文件夹控制桌面端的运行打包
